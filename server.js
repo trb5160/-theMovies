@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooks";
+var MONGODB_URI = "mongodb+srv://cjose91:Passgirl1@cluster0.nl8ot.mongodb.net/GoogleBooks?retryWrites=true&w=majority";
 
 mongoose.connect(MONGODB_URI, {
   useUnifiedTopology: true,

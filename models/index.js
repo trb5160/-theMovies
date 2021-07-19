@@ -1,4 +1,5 @@
 module.exports = {
-    GoogleBooks: require("./book")
+    GoogleBooks: require("./book"),
+    moviedb: require("./movie")
   };
   

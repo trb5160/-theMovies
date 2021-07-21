@@ -56,4 +56,4 @@ For more information about the license, click the link below:
 
 ## Contributions:
 
-  [![GitHub](https://img.shields.io/badge/Chloe%20Yu-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/pat31477)
+  [![GitHub](https://github.com/pat31477)

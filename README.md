@@ -7,7 +7,7 @@ This application was created using the MERN stack. It allows users to search for
 
 Heroku: <b><a href="https://whispering-eyrie-33435.herokuapp.com/" target="_blank">https://tranquil-sierra-90827.herokuapp.com/</a></b>
 
-Repo: <b><a href="https://github.com/fjimenez51/Google-Books" target="_blank">https://github.com/fjimenez51/Google-Books</a></b>
+Repo: <b><a href="https://github.com/fjimenez51/Google-Books" target="_blank">https://github.com/trb5160/-theMovies</a></b>
 
 ### Tech Used:
  - React JS - Express J  - MongoDB - Node - Axios - CSS Bulma -Facebook Authentication 

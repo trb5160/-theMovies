@@ -5,7 +5,6 @@ import Jumbotron from "../components/Jumbotron/Jumbotron";
 import {Input, SubmitBtn} from "../components/Search/Search";
 import API from "../utils/API";
 import ResultList from "../components/ResultList/ResultList";
-import Authy from "../components/FB/fb";
 
 
 class Home extends Component {
@@ -60,7 +59,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Authy/>
+            
                 <Nav />
                 <Container fluid>
                 <Jumbotron />

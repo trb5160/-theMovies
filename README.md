@@ -23,9 +23,9 @@ Repo: <b><a href="https://github.com/fjimenez51/Google-Books" target="_blank">ht
 
 ![FullScreenShot](client/src/utils/images/fullscreen.png?raw=true "FullScreenShot")
 
-![SavedBooks](client/src/utils/images/savedbook.png?raw=true "SavedBooks")
+![SavedBooks](client/src/utils/images/saveddb.png?raw=true "SavedBooks")
 
-![Google Book Search Demo](client/src/utils/images/googlegif.gif?raw=true "Google Book Search Demo")
+![Google Book Search Demo](client/src/utils/images/screendemo.gif?raw=true "Google Book Search Demo")
 
 ---
 

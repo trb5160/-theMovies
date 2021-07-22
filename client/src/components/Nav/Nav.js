@@ -8,7 +8,7 @@ function Nav() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark">
-            <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
+            
                 <Link className="navbar-brand" to="/">At The Movies</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -21,7 +21,7 @@ function Nav() {
                         <li className="nav-item active">
                             <Link className="nav-link" to="/saved">Saved Movies</Link>
                         </li>
-                       
+                        <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
                     </ul>
                     
                 </div>

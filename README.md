@@ -1,5 +1,5 @@
 
-## Google Books Search MERN
+## Movie Database Search MERN
 
 ![License: MIT](https://img.shields.io/badge/License%3A-MIT-green.svg)
 

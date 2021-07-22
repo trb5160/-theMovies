@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import Saved from "./pages/Saved";
 import "./App.css";
 
-
 class App extends Component {
 
     render() {

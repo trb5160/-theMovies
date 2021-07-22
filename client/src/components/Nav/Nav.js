@@ -22,7 +22,7 @@ function Nav() {
                             <Link className="nav-link" to="/saved">Saved Movies</Link>
                         </li>
                        <li class="new"><button class="facebook-login"> fb login </button></li>
-                        
+                        <Authy/>
                     </ul>
                     
                 </div>

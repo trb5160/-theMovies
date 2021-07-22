@@ -20,7 +20,10 @@ function Nav() {
                         <li className="nav-item active">
                             <Link className="nav-link" to="/saved">Saved Movies</Link>
                         </li>
-                        <Authy />
+                        <li className="nav-item active">
+                            Test <Authy />
+                        </li>
+                        
                     </ul>
                     
                 </div>

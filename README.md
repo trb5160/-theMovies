@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Google Books Search MERN
 
 ![License: MIT](https://img.shields.io/badge/License%3A-MIT-green.svg)
@@ -57,3 +58,6 @@ For more information about the license, click the link below:
 ## Contributions:
 
   [![GitHub](https://github.com/pat31477)
+=======
+# Project3
+>>>>>>> 2805239a17ead8fdaedd172d348440c41faea109

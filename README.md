@@ -5,7 +5,7 @@
 
 This application was created using the MERN stack. It allows users to search for books via the Google Books API. Wthe option to view, save and/or delete books.
 
-Heroku: <b><a href="https://whispering-eyrie-33435.herokuapp.com/" target="_blank">https://whispering-eyrie-33435.herokuapp.com/</a></b>
+Heroku: <b><a href="https://whispering-eyrie-33435.herokuapp.com/" target="_blank">https://tranquil-sierra-90827.herokuapp.com//</a></b>
 
 Repo: <b><a href="https://github.com/fjimenez51/Google-Books" target="_blank">https://github.com/fjimenez51/Google-Books</a></b>
 
@@ -14,9 +14,9 @@ Repo: <b><a href="https://github.com/fjimenez51/Google-Books" target="_blank">ht
 
 ## Description:
 
-- Users are brought to the `Home` page where they can begin their search for any book. The Book info retrived from Google Books API.
+- Users are brought to the `Home` page where they can begin their search for any movie to store and look-up or watch later. The Movie info is then retrived from a Movie database API.
 
-- When searching for a book, users will see a list of relevant results. They can click `save` to save the book to the `Saved` page. The book is saved to the Mongo DB on the back end.
+- When searching for a movie, users will see a list of relevant results. They can click `save` to save the book to the `Saved` page. The book is saved to the Mongo DB on the back end.
 
 
 
@@ -24,9 +24,9 @@ Repo: <b><a href="https://github.com/fjimenez51/Google-Books" target="_blank">ht
 
 ![FullScreenShot](client/src/utils/images/fullscreen.png?raw=true "FullScreenShot")
 
-![SavedBooks](client/src/utils/images/saveddb.png?raw=true "SavedBooks")
+![SavedBooks](client/src/utils/images/saveddb.png?raw=true "SavedMovies")
 
-![Google Book Search Demo](client/src/utils/images/screendemo.gif?raw=true "Google Book Search Demo")
+![Movie Search Demo](client/src/utils/images/screendemo.gif?raw=true "Movie Search Demo")
 
 ---
 
@@ -55,9 +55,3 @@ For more information about the license, click the link below:
 
 - [License](https://opensource.org/licenses/)
 
-## Contributions:
-
-  [![GitHub](https://github.com/pat31477)
-=======
-# Project3
->>>>>>> 2805239a17ead8fdaedd172d348440c41faea109

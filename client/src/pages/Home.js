@@ -44,7 +44,10 @@ class Home extends Component {
         console.log("This is the current book", currentBook);
         API.saveBook({
             id: currentBook.id,
-            poster_path: currentBook.poster_path
+            poster_path: currentBook.poster_path,
+            description: currentBook.overview,
+            rating: currentBook.voting_average,
+            title: currentBook.title
             
             
         })

@@ -1,13 +1,14 @@
 import React from 'react';
 import "./style.css";
 import {Link} from "react-router-dom";
+import Authy from "../FB/fb";
 
 function Nav() {
 
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark">
-                <Link className="navbar-brand" to="/">Movie Search</Link>
+                <Link className="navbar-brand" to="/">At The Movies</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -20,6 +21,7 @@ function Nav() {
                             <Link className="nav-link" to="/saved">Saved Movies</Link>
                         </li>
                     </ul>
+                    <Authy />
                 </div>
             </nav>
         </div>

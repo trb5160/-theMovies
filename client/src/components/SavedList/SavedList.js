@@ -9,13 +9,12 @@ class ResultList extends Component {
         return (
             this.props.bookState.map((book) => (
             <SavedListItem 
-            key={book._id}
-            id={book._id}
+            key={book.id}
+            id={book.id}
             title={book.title}
-            link={book.link}
-            authors={book.authors && book.authors.length > 1 ? book.authors.join(", ") : book.authors}
-            image={book.image ? book.image : "https://previews.123rf.com/images/pavelstasevich/pavelstasevich1811/pavelstasevich181101065/112815953-no-image-available-icon-flat-vector.jpg"}
-            description={book.description}
+            poster_path={book.poster_path}
+            description={book.overview}
+            rating={book.vote_average}
             deleteGoogleBook={this.props.deleteGoogleBook}
             />
         ))

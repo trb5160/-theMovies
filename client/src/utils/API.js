@@ -4,11 +4,12 @@ import axios from "axios";
 export default {
     // Retrieve Google books
     googleBooks: function(query) {
-        return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${query}`)
+        return axios.get(`https://api.themoviedb.org/3/search/movie?api_key=53f434cb06beb0362949cd14a3dea1a2&query=${query}`)
     },
+    
     // Saves book to DB
-    saveBook: function(bookData) {
-        return axios.post("/api/books", bookData);
+    saveBook: function(movieData) {
+        return axios.post("/api/books", movieData);
     },
     // Gets saved books from DB
     getBooks: function() {

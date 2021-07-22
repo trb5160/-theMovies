@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 
-var MONGODB_URI = "mongodb+srv://punisher973:punisher973@cluster0.en3af.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+var MONGODB_URI = "mongodb+srv://punisher973:punisher973@cluster0.en3af.mongodb.net/movie_db?retryWrites=true&w=majority";
 
 mongoose.connect(MONGODB_URI, {
   useUnifiedTopology: true,

@@ -13,19 +13,19 @@ class Home extends Component {
         search: ""
     };
 
-    // Search function for books through Google API
+    // Search function for movie API
     searchBooks = () => {
         API.googleBooks(this.state.search)
             .then(res => {
-                console.log("This is res.data", res.data.items)
+                console.log("This is res.data", res.data.results)
                 this.setState({
-                books: res.data.items,
+                books: res.data.results,
                 search: ""
             })})
             .catch(err => console.log(err));
             
     };
-
+    
     
     handleInputChange = event => {
         const {name, value} = event.target;
@@ -44,11 +44,9 @@ class Home extends Component {
         console.log("This is the current book", currentBook);
         API.saveBook({
             id: currentBook.id,
-            title: currentBook.title,
-            authors: currentBook.authors,
-            description: currentBook.description,
-            image: currentBook.image,
-            link: currentBook.link
+            poster_path: currentBook.poster_path
+            
+            
         })
         .then(res => console.log("Successfully POSTED to DB!", res))
         .catch(err => console.log("this is the error", err));
@@ -61,12 +59,12 @@ class Home extends Component {
                 <Container fluid>
                 <Jumbotron />
                 <form>
-                    <h5>Search for books</h5>
+                    <h5>Search for movies</h5>
                     <Input 
                         value={this.state.search}
                         onChange={this.handleInputChange}
                         name="search"
-                        placeholder="e.g. Stephen King"
+                        placeholder="e.g. Spiderman"
                     />
                     <SubmitBtn onClick={this.handleFormSubmit}/>
                 </form>

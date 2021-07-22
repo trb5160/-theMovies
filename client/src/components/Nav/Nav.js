@@ -7,7 +7,7 @@ function Nav() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark">
-                <Link className="navbar-brand" to="/">Google Books Search</Link>
+                <Link className="navbar-brand" to="/">Movie Search</Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -17,7 +17,7 @@ function Nav() {
                             <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item active">
-                            <Link className="nav-link" to="/saved">Saved Books</Link>
+                            <Link className="nav-link" to="/saved">Saved Movies</Link>
                         </li>
                     </ul>
                 </div>

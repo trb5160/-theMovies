@@ -10,11 +10,10 @@ class ResultList extends Component {
             <ResultListItem 
             key={book.id}
             id={book.id}
-            title={book.volumeInfo.title}
-            link={book.volumeInfo.previewLink}
-            authors={book.volumeInfo.authors && book.volumeInfo.authors.length > 1 ? book.volumeInfo.authors.join(", ") : book.volumeInfo.authors}
-            image={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : "https://previews.123rf.com/images/pavelstasevich/pavelstasevich1811/pavelstasevich181101065/112815953-no-image-available-icon-flat-vector.jpg"}
-            description={book.volumeInfo.description}
+            title={book.title}
+            poster_path={book.poster_path}
+            description={book.overview}
+            rating={book.vote_average}
             saveGoogleBook={this.props.saveGoogleBook}
             />
         ))

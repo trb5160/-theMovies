@@ -18,7 +18,7 @@ class Saved extends Component {
     deleteGoogleBook = currentBook => {
         API.deleteBook( currentBook.id )
         .then(res => {
-            console.log("You have deleted this book:", res);
+            console.log("You have deleted this Movie:", res);
             this.getBooks();
         })
         .catch(err => {
@@ -53,7 +53,7 @@ class Saved extends Component {
                     >
                     </SavedList>
                 ) : (
-                    <h5>No saved books to display</h5>
+                    <h5>No saved Movies to display</h5>
                 )}
                 </Container>
             </div>

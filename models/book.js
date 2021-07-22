@@ -4,12 +4,10 @@ const Schema = mongoose.Schema;
 const bookSchema = new Schema({
     id: {type: String, require: true},
     title: {type: String, require: true},
-    authors: [{type: String, require: true}],
-    description: {type: String, require: true},
-    image: {type: String, unique: true, dropDups: true},
-    link: {type: String, required: true}
+    poster_path: {type: String, unique: true, dropDups: true},
+
 })
 
-const GoogleBooks = mongoose.model("GoogleBooks", bookSchema);
+const GoogleBooks = mongoose.model("Movie", bookSchema);
 
 module.exports = GoogleBooks;

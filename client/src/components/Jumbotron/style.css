@@ -15,3 +15,11 @@
     position: relative;
     transform: translateY(100px)
 }
+
+.nav {
+    font-family: "Bulma";
+}
+
+body {
+    font-family: "Bulam";
+}

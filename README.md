@@ -3,7 +3,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License%3A-MIT-green.svg)
 
-This application was created using the MERN stack. It allows users to search for books via the Google Books API. Wthe option to view, save and/or delete books.
+This application was created using the MERN stack. It allows users to search for Films via the "Themoviedatabase" API. With the option to view, save and/or delete films.
 
 Heroku: <b><a href="https://whispering-eyrie-33435.herokuapp.com/" target="_blank">https://tranquil-sierra-90827.herokuapp.com//</a></b>
 

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Google Books Search MERN
 
 ![License: MIT](https://img.shields.io/badge/License%3A-MIT-green.svg)

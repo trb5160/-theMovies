@@ -10,7 +10,7 @@ Heroku: <b><a href="https://whispering-eyrie-33435.herokuapp.com/" target="_blan
 Repo: <b><a href="https://github.com/fjimenez51/Google-Books" target="_blank">https://github.com/fjimenez51/Google-Books</a></b>
 
 ### Tech Used:
- - React JS - Express J  - MongoDB - Node - Axios
+ - React JS - Express J  - MongoDB - Node - Axios - CSS Bulma -Facebook Authentication 
 
 ## Description:
 

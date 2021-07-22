@@ -5,7 +5,7 @@
 
 This application was created using the MERN stack. It allows users to search for Films via the "Themoviedatabase" API. With the option to view, save and/or delete films.
 
-Heroku: <b><a href="https://whispering-eyrie-33435.herokuapp.com/" target="_blank">https://tranquil-sierra-90827.herokuapp.com//</a></b>
+Heroku: <b><a href="https://whispering-eyrie-33435.herokuapp.com/" target="_blank">https://tranquil-sierra-90827.herokuapp.com/</a></b>
 
 Repo: <b><a href="https://github.com/fjimenez51/Google-Books" target="_blank">https://github.com/fjimenez51/Google-Books</a></b>
 

@@ -20,12 +20,10 @@ function Nav() {
                         <li className="nav-item active">
                             <Link className="nav-link" to="/saved">Saved Movies</Link>
                         </li>
-                        <li className="nav-item active">
-                            Test <Authy />
-                        </li>
+                       
                         
                     </ul>
-                    
+                    <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
                 </div>
             </nav>
         </div>

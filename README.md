@@ -14,6 +14,8 @@ Repo: <b><a href="https://github.com/fjimenez51/Google-Books" target="_blank">ht
 
 ## Description:
 
+- Due to a small bug the Facebook authentication does work.. BUT only when the Heroku link is opened on INCOGNITO MODE on chrome. For the sake of funtionality please open through incognito. 
+
 - Users are brought to the `Home` page where they can begin their search for any movie to store and look-up or watch later. The Movie info is then retrived from a Movie database API.
 
 - When searching for a movie, users will see a list of relevant results. They can click `save` to save the book to the `Saved` page. The book is saved to the Mongo DB on the back end.

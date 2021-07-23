@@ -12,7 +12,7 @@ Repo: <b><a href="https://github.com/fjimenez51/Google-Books" target="_blank">ht
 ### Tech Used:
  - React JS - Express J  - MongoDB - Node - Axios - CSS Bulma -Facebook Authentication 
 
-## Description:
+## Description/How to use:
 
 - Due to a small bug the Facebook authentication does work.. BUT only when the Heroku link is opened on INCOGNITO MODE on chrome. For the sake of funtionality please open through incognito. 
 
